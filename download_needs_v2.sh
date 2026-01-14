@@ -42,6 +42,7 @@ OPTIONAL_TOOLS=(
     "nmap"
     "tcpdump"
     "wireshark"
+    "tshark"
     "john"
     "hydra"
     "aircrack-ng"
