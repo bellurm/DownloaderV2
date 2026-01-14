@@ -29,6 +29,7 @@ GITHUB_REPOS=(
     "https://github.com/bellurm/AutoLoginv2.git"
     "https://github.com/bellurm/base64-decoder-vPython.git"
     "https://github.com/bellurm/base64-decoder-vShell.git"
+    "https://github.com/bellurm/SimplePCAP.git"
 )
 
 OPTIONAL_TOOLS=(
