@@ -127,7 +127,7 @@ install_selected_tools() {
 }
 
 install_github_repos() {
-    local tools_dir="/opt/my_tools"
+    local tools_dir="/opt/tools"
     mkdir -p "$tools_dir"
     cd "$tools_dir" || { echo "Failed to cd to $tools_dir"; exit 1; }
 
