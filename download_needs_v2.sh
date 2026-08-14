@@ -508,8 +508,7 @@ external_repo_url() {
     for i in "${!EXTERNAL_REPO_NAMES[@]}"; do
 
         if [[
-            "${EXTERNAL_REPO_NAMES[$i]}" ==
-            "$requested"
+            "${EXTERNAL_REPO_NAMES[$i]}" == "$requested"
         ]]; then
 
             printf \
